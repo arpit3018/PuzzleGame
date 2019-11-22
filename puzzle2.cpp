@@ -34,10 +34,12 @@ int main() {
         check = i.first.substr(0,i.first.size()-1);
         string substrval = to_string(getBinary(val[check]));
         string lastchar = to_string(getBinary(val[i.first.substr(i.first.size()-1,1)]));
+        cout<<substrval+lastchar<<endl;
     }
     else {
         check = i.first;
          string singlechar = to_string(getBinary(val[check]-1));
+         cout<<singlechar<<endl;
     } 
     }
 }
