@@ -74,6 +74,7 @@ int main() {
 	}
 	node * root = res[0];
 	vector< pair <int,string> > ans = val;
-	int som = ""; 
-	//Hope you are smart enough!
+	string som = ""; 
+	for(auto vall : ans)
+	cout<<vall.second<<" "<<getMagic(root,vall.second,som)<<endl;
 }

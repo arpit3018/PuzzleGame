@@ -1,1 +1,1 @@
-# PuzzleGame
+# Algorithms
