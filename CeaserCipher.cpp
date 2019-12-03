@@ -32,4 +32,6 @@ int main() {
     int Ck;
     cin>>val;
     cin>>Ck;
+    cout<<"Cipher Text is : "<<func1(val,Ck)<<endl;
+    cout<<"Plain Text is : "<<func2(func1(val,Ck),Ck);
 }
